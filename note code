@@ -9,9 +9,7 @@ ArrayList<String> RT1 = new ArrayList<String>();
 Digunakan untuk membuat data array yang fleksibel yang bernama RT1.
 
 RT1.add("" + ppl.getNama() + " " + ppl.getAgama() + " " + ppl.getJenisKelamin() + " " + ppl.getPekerjaan() + " " + ppl.getGetih() + " " + ppl.getKelurahan() + " " + ppl.getRT() + " " + ppl.getTempatLahir() + " " + ppl.getTanggalLahir() + " " + ppl.getKewarganegaraan() + "");
-untuk memasukkan objek ppl kedalam arraylist RT1.
-
-:D :D :D :D
+untuk memasukkan objek ppl kedalam arraylist RT1
 
 ppl.setNama("Ilham");
 ppl.setAgama("Islam");
@@ -24,7 +22,7 @@ ppl.setKewarganegaraan("Indonesia");
 source code di atas digunakan untuk memasukkan data sesuai dengan nama setternya. 
 jika setNama maka masukkan data nama, jika setAgama maka masukkan data agama dan seterusnya.
 
-
-
+Sukorame.put(ppl.getNama(), RT1);
+Digunakan untuk meletakkan data ke hash map dengan key ppl.getnama (yaitu data dari penduduk tersebut) dan diikuti dengan array list RT1
 
 */

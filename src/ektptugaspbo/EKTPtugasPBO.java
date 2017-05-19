@@ -74,7 +74,7 @@ public class EKTPtugasPBO {
             String next = iterator.toString();
             System.out.println(iterator.next());
         }
-        ArrayList<String> RT2 = new ArrayList<String>();
+        ArrayList<String> RT2 = new ArrayList<>();
         ppl.setNama("Sri Kandi");
         ppl.setAgama("Budha");
         ppl.setJenisKelamin("Perempuan");

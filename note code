@@ -1,10 +1,21 @@
 /*
 Penduduk ppl = new Penduduk();
-buat objek untuk menampung data dari setiap penduduk yang diperoleh dari setter dan getter
+buat objek untuk menampung data dari setiap penduduk yang diperoleh dari setter dan getter.
 
 HashMap<String, ArrayList> Sukorame = new HashMap<String, ArrayList>();
 Digunakan untuk membuat HashMap yaitu data Desa yang bernama Sukorame.
 
 ArrayList<String> RT1 = new ArrayList<String>();
-Digunakan untuk membuat data array yang fleksibel yang bernama RT1 
+Digunakan untuk membuat data array yang fleksibel yang bernama RT1.
+
+ppl.setNama("Ilham");
+ppl.setAgama("Islam");
+ppl.setJenisKelamin("Lakik");
+ppl.setPekerjaan("Job");
+ppl.setGetih("O"); 
+ppl.setTempatLahir("Banjarmasin");
+ppl.setTanggalLahir("20-06-2016");
+ppl.setKewarganegaraan("Indonesia");
+source code di atas digunakan untuk memasukkan data sesuai dengan nama setternya. 
+jika setNama maka masukkan data nama, jika setAgama maka masukkan data agama dan seterusnya.
 */

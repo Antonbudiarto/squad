@@ -9,9 +9,11 @@ package ektptugaspbo;
  *
  * @author Publisher
  */
+
 public class Penduduk {
      private String jeneng, agomo, kelamin, pengawean, getih, deso, RT, panggenlahir, tanggalLahir, negoroAsal;
- 
+    public Penduduk(){
+    }
     public Penduduk(String jeneng, String agomo, String kelamin, String pengawean, String getih, String deso, String RT, String panggenlahir, String tanggalLahir, String negoroAsal) {
         this.jeneng = jeneng;
         this.agomo = agomo;

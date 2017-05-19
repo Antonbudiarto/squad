@@ -11,6 +11,8 @@ Digunakan untuk membuat data array yang fleksibel yang bernama RT1.
 RT1.add("" + ppl.getNama() + " " + ppl.getAgama() + " " + ppl.getJenisKelamin() + " " + ppl.getPekerjaan() + " " + ppl.getGetih() + " " + ppl.getKelurahan() + " " + ppl.getRT() + " " + ppl.getTempatLahir() + " " + ppl.getTanggalLahir() + " " + ppl.getKewarganegaraan() + "");
 untuk memasukkan objek ppl kedalam arraylist RT1.
 
+:D :D :D :D
+
 ppl.setNama("Ilham");
 ppl.setAgama("Islam");
 ppl.setJenisKelamin("Lakik");

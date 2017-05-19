@@ -129,7 +129,7 @@ public class EKTPtugasPBO {
             System.out.println(ampunBos.next());
         }
 
-        ArrayList<String> RT3 = new ArrayList<String>();
+        ArrayList<String> RT3 = new ArrayList<>();
         ppl.setNama("Musuh");
         ppl.setAgama("Islam");
         ppl.setJenisKelamin("Laki-laki");
@@ -187,7 +187,7 @@ public class EKTPtugasPBO {
             System.out.println(ampunBos.next());
         }
 
-        ArrayList<String> RT4 = new ArrayList<String>();
+        ArrayList<String> RT4 = new ArrayList<>();
         ppl.setNama("Supini");
         ppl.setAgama("Kong Hucu");
         ppl.setJenisKelamin("Perempuan");

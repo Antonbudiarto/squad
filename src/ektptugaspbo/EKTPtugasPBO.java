@@ -361,5 +361,61 @@ public class EKTPtugasPBO {
             String next = gw.toString();
             System.out.println(gw.next());
         }
+        ArrayList<String> rt03 = new ArrayList<String>();
+        ppl.setNama("Udin");
+        ppl.setAgama("Islam");
+        ppl.setJenisKelamin("Laki-laki");
+        ppl.setPekerjaan("Ngamen");
+        ppl.setGetih("O");
+        ppl.setKelurahan("Bandulan");
+        ppl.setRT("RT 03");
+        ppl.setTempatLahir("Tlogomas");
+        ppl.setTanggalLahir("08-06-1974");
+        ppl.setKewarganegaraan("Indonesia");
+        rt03.add("" + ppl.getNama() + " " + ppl.getAgama() + " " + ppl.getJenisKelamin() + " " + ppl.getPekerjaan() + " " + ppl.getGetih() + " " + ppl.getKelurahan() + " " + ppl.getRT() + " " + ppl.getTempatLahir() + " " + ppl.getTanggalLahir() + " " + ppl.getKewarganegaraan() + "");
+
+        ppl.setNama("Hanami");
+        ppl.setAgama("Islam");
+        ppl.setJenisKelamin("Perempuan");
+        ppl.setPekerjaan("Berjalan");
+        ppl.setGetih("X");
+        ppl.setKelurahan("Bandulan");
+        ppl.setRT("RT 03");
+        ppl.setTempatLahir("Nganjuk");
+        ppl.setTanggalLahir("03-01-1909");
+        ppl.setKewarganegaraan("Indonesia");
+        rt03.add("" + ppl.getNama() + " " + ppl.getAgama() + " " + ppl.getJenisKelamin() + " " + ppl.getPekerjaan() + " " + ppl.getGetih() + " " + ppl.getKelurahan() + " " + ppl.getRT() + " " + ppl.getTempatLahir() + " " + ppl.getTanggalLahir() + " " + ppl.getKewarganegaraan() + "");
+
+        ppl.setNama("Tresno Karo Kowe");
+        ppl.setAgama("Islam");
+        ppl.setJenisKelamin("Laki-laki");
+        ppl.setPekerjaan("Assisten");
+        ppl.setGetih("A");
+        ppl.setKelurahan("Bandulan");
+        ppl.setRT("RT 03");
+        ppl.setTempatLahir("Doli");
+        ppl.setTanggalLahir("20-01-1885");
+        ppl.setKewarganegaraan("Indonesia");
+        rt03.add("" + ppl.getNama() + " " + ppl.getAgama() + " " + ppl.getJenisKelamin() + " " + ppl.getPekerjaan() + " " + ppl.getGetih() + " " + ppl.getKelurahan() + " " + ppl.getRT() + " " + ppl.getTempatLahir() + " " + ppl.getTanggalLahir() + " " + ppl.getKewarganegaraan() + "");
+
+        ppl.setNama("Luffy");
+        ppl.setAgama("Islam");
+        ppl.setJenisKelamin("Laki-laki");
+        ppl.setPekerjaan("Dagang Ban");
+        ppl.setGetih("O");
+        ppl.setKelurahan("Bandulan");
+        ppl.setRT("RT 03");
+        ppl.setTempatLahir("Gunung Kidul");
+        ppl.setTanggalLahir("15-02-1884");
+        ppl.setKewarganegaraan("Indonesia");
+        rt03.add("" + ppl.getNama() + " " + ppl.getAgama() + " " + ppl.getJenisKelamin() + " " + ppl.getPekerjaan() + " " + ppl.getGetih() + " " + ppl.getKelurahan() + " " + ppl.getRT() + " " + ppl.getTempatLahir() + " " + ppl.getTanggalLahir() + " " + ppl.getKewarganegaraan() + "");
+        Bandulan.put(ppl.getNama(), rt03);
+        System.out.println();
+	System.out.println("Data RT 03 Desa Bandulan");
+        for (Iterator<String> ite = rt03.iterator(); ite.hasNext();) {
+            String next = ite.toString();
+            System.out.println(ite.next());
+        }
+
     }
 }

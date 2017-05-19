@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ektptugaspbo;
 
 /**
@@ -21,10 +17,10 @@ public class EKTPtugasPBO {
     public static void main(String[] args) {
         Penduduk ppl = new Penduduk();
 
-        HashMap<String, ArrayList> Sukorame = new HashMap<String, ArrayList>();
+        HashMap<String, ArrayList> Sukorame = new HashMap<>();
 
 //RT 1     DESA SUKORAME        
-        ArrayList<String> RT1 = new ArrayList<String>();
+        ArrayList<String> RT1 = new ArrayList<>();
         ppl.setNama("Jainudin");
         ppl.setAgama("Islam");
         ppl.setJenisKelamin("Laki-laki");
